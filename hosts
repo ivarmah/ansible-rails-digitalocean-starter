@@ -1,0 +1,5 @@
+[digitalocean]
+localhost ansible_connection=local
+
+[webapp]
+<DigitalOcean droplet IP>  ansible_ssh_user=root
